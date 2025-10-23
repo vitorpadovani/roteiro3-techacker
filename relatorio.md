@@ -11,7 +11,7 @@ Ambiente auto-hospedado usando **pfSense** como firewall/roteador, publicando **
 
 ## 1. Topologia de Rede
 
-```mermaid
+```
 flowchart LR
     INET((Internet / Upstream))
     PFS[pfSense\nWAN: 192.168.20.170\nLAN: 10.0.80.1]
